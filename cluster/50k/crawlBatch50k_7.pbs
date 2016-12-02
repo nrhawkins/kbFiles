@@ -1,0 +1,25 @@
+#!/bin/bash
+
+cd /homes/gws/nhawkins/repo/deft
+
+mvn exec:java -pl washington -Dexec.mainClass="edu.washington.WashingtonNewsSpikeExtractorAppKB" -Dexec.args="--input_directory /projects/WebWare9/nhawkins/crawlCorpus/50k/ -l /projects/WebWare9/nhawkins/crawlFileLists/50k/crawlBatch:50k:61 --output_directory /projects/WebWare9/nhawkins/crawlOut"
+
+mvn exec:java -pl washington -Dexec.mainClass="edu.washington.WashingtonNewsSpikeExtractorAppKB" -Dexec.args="--input_directory /projects/WebWare9/nhawkins/crawlCorpus/50k/ -l /projects/WebWare9/nhawkins/crawlFileLists/50k/crawlBatch:50k:62 --output_directory /projects/WebWare9/nhawkins/crawlOut"
+
+mvn exec:java -pl washington -Dexec.mainClass="edu.washington.WashingtonNewsSpikeExtractorAppKB" -Dexec.args="--input_directory /projects/WebWare9/nhawkins/crawlCorpus/50k/ -l /projects/WebWare9/nhawkins/crawlFileLists/50k/crawlBatch:50k:63 --output_directory /projects/WebWare9/nhawkins/crawlOut"
+
+mvn exec:java -pl washington -Dexec.mainClass="edu.washington.WashingtonNewsSpikeExtractorAppKB" -Dexec.args="--input_directory /projects/WebWare9/nhawkins/crawlCorpus/50k/ -l /projects/WebWare9/nhawkins/crawlFileLists/50k/crawlBatch:50k:64 --output_directory /projects/WebWare9/nhawkins/crawlOut"
+
+mvn exec:java -pl washington -Dexec.mainClass="edu.washington.WashingtonNewsSpikeExtractorAppKB" -Dexec.args="--input_directory /projects/WebWare9/nhawkins/crawlCorpus/50k/ -l /projects/WebWare9/nhawkins/crawlFileLists/50k/crawlBatch:50k:65 --output_directory /projects/WebWare9/nhawkins/crawlOut"
+
+mvn exec:java -pl washington -Dexec.mainClass="edu.washington.WashingtonNewsSpikeExtractorAppKB" -Dexec.args="--input_directory /projects/WebWare9/nhawkins/crawlCorpus/50k/ -l /projects/WebWare9/nhawkins/crawlFileLists/50k/crawlBatch:50k:66 --output_directory /projects/WebWare9/nhawkins/crawlOut"
+
+mvn exec:java -pl washington -Dexec.mainClass="edu.washington.WashingtonNewsSpikeExtractorAppKB" -Dexec.args="--input_directory /projects/WebWare9/nhawkins/crawlCorpus/50k/ -l /projects/WebWare9/nhawkins/crawlFileLists/50k/crawlBatch:50k:67 --output_directory /projects/WebWare9/nhawkins/crawlOut"
+
+mvn exec:java -pl washington -Dexec.mainClass="edu.washington.WashingtonNewsSpikeExtractorAppKB" -Dexec.args="--input_directory /projects/WebWare9/nhawkins/crawlCorpus/50k/ -l /projects/WebWare9/nhawkins/crawlFileLists/50k/crawlBatch:50k:68 --output_directory /projects/WebWare9/nhawkins/crawlOut"
+
+mvn exec:java -pl washington -Dexec.mainClass="edu.washington.WashingtonNewsSpikeExtractorAppKB" -Dexec.args="--input_directory /projects/WebWare9/nhawkins/crawlCorpus/50k/ -l /projects/WebWare9/nhawkins/crawlFileLists/50k/crawlBatch:50k:69 --output_directory /projects/WebWare9/nhawkins/crawlOut"
+
+mvn exec:java -pl washington -Dexec.mainClass="edu.washington.WashingtonNewsSpikeExtractorAppKB" -Dexec.args="--input_directory /projects/WebWare9/nhawkins/crawlCorpus/50k/ -l /projects/WebWare9/nhawkins/crawlFileLists/50k/crawlBatch:50k:70 --output_directory /projects/WebWare9/nhawkins/crawlOut"
+
+

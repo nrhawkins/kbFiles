@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd /homes/gws/nhawkins/repo/deft
+
+mvn exec:java -pl washington -Dexec.mainClass="edu.washington.WashingtonNewsSpikeExtractorAppKB" -Dexec.args="--input_directory /projects/WebWare9/nhawkins/crawlCorpus/300k/ -l /projects/WebWare9/nhawkins/crawlFileLists/300k/crawlBatch:91 --output_directory /projects/WebWare9/nhawkins/crawlOut"
+
+mvn exec:java -pl washington -Dexec.mainClass="edu.washington.WashingtonNewsSpikeExtractorAppKB" -Dexec.args="--input_directory /projects/WebWare9/nhawkins/crawlCorpus/300k/ -l /projects/WebWare9/nhawkins/crawlFileLists/300k/crawlBatch:92 --output_directory /projects/WebWare9/nhawkins/crawlOut"
+
+
